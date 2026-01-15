@@ -40,7 +40,7 @@ export const TrueFocus = ({
         return (
           <span
             key={index}
-            className="relative text-white cursor-pointer select-none"
+            className="relative text-white select-none"
             style={{
               filter: isActive ? "blur(0px)" : `blur(${blurAmount}px)`,
               opacity: isActive ? 1 : 0.5,
